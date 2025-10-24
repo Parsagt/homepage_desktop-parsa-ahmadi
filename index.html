@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariatek Studio - Front-End Development & Design Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__container">
+                <div class="nav__brand">
+                    <h1 class="nav__logo">Ariatek Studio</h1>
+                    <span class="nav__tagline">Digital Excellence</span>
+                </div>
+                <ul class="nav__menu">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#pricing" class="nav__link">Pricing</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__cta">
+                    <a href="#contact" class="btn btn--primary">Get Started</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero__container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Crafting Digital
+                    <span class="hero__highlight">Excellence</span>
+                    for Modern Businesses
+                </h1>
+                <p class="hero__subtitle">
+                    We specialize in creating stunning, responsive websites and applications that drive results. 
+                    From concept to deployment, we bring your digital vision to life.
+                </p>
+                <div class="hero__actions">
+                    <a href="#services" class="btn btn--primary btn--large">Explore Services</a>
+                    <a href="#portfolio" class="btn btn--secondary btn--large">View Portfolio</a>
+                </div>
+                <div class="hero__stats">
+                    <div class="stat">
+                        <span class="stat__number">150+</span>
+                        <span class="stat__label">Projects Completed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">98%</span>
+                        <span class="stat__label">Client Satisfaction</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">6+</span>
+                        <span class="stat__label">Years Experience</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__visual">
+                <div class="hero__image">
+                    <div class="floating-card floating-card--1">
+                        <i class="fas fa-code"></i>
+                        <span>Clean Code</span>
+                    </div>
+                    <div class="floating-card floating-card--2">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Responsive</span>
+                    </div>
+                    <div class="floating-card floating-card--3">
+                        <i class="fas fa-rocket"></i>
+                        <span>Fast Loading</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Our Services</h2>
+                <p class="section__subtitle">
+                    Comprehensive digital solutions tailored to your business needs
+                </p>
+            </div>
+            <div class="services__grid">
+                <div class="service__card">
+                    <div class="service__icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="service__title">Web Design</h3>
+                    <p class="service__description">
+                        Beautiful, user-centered designs that captivate your audience and reflect your brand identity.
+                    </p>
+                    <ul class="service__features">
+                        <li>UI/UX Design</li>
+                        <li>Brand Identity</li>
+                        <li>Wireframing</li>
+                        <li>Prototyping</li>
+                    </ul>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="service__title">Front-End Development</h3>
+                    <p class="service__description">
+                        Modern, responsive websites built with the latest technologies and best practices.
+                    </p>
+                    <ul class="service__features">
+                        <li>React & Vue.js</li>
+                        <li>Mobile-First Design</li>
+                        <li>Performance Optimization</li>
+                        <li>Cross-Browser Compatibility</li>
+                    </ul>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="service__title">SEO Optimization</h3>
+                    <p class="service__description">
+                        Boost your online visibility with our comprehensive SEO strategies and technical optimization.
+                    </p>
+                    <ul class="service__features">
+                        <li>Technical SEO</li>
+                        <li>Content Strategy</li>
+                        <li>Keyword Research</li>
+                        <li>Analytics Setup</li>
+                    </ul>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 class="service__title">E-commerce Solutions</h3>
+                    <p class="service__description">
+                        Complete online stores with secure payment processing and inventory management.
+                    </p>
+                    <ul class="service__features">
+                        <li>Custom E-commerce</li>
+                        <li>Payment Integration</li>
+                        <li>Inventory Management</li>
+                        <li>Order Processing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about__content">
+                <div class="about__text">
+                    <h2 class="section__title">About Ariatek Studio</h2>
+                    <p class="about__description">
+                        Founded in 2019, Ariatek Studio has been at the forefront of digital innovation in Iran. 
+                        We combine cutting-edge technology with creative design to deliver exceptional digital experiences.
+                    </p>
+                    <p class="about__description">
+                        Our team of passionate developers and designers work closely with clients to understand their 
+                        unique needs and deliver solutions that exceed expectations. We believe in the power of 
+                        technology to transform businesses and create meaningful connections.
+                    </p>
+                    <div class="about__values">
+                        <div class="value">
+                            <i class="fas fa-lightbulb"></i>
+                            <h4>Innovation</h4>
+                            <p>Staying ahead with latest technologies</p>
+                        </div>
+                        <div class="value">
+                            <i class="fas fa-handshake"></i>
+                            <h4>Partnership</h4>
+                            <p>Collaborative approach to every project</p>
+                        </div>
+                        <div class="value">
+                            <i class="fas fa-star"></i>
+                            <h4>Quality</h4>
+                            <p>Excellence in every detail</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__visual">
+                    <div class="about__image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-users"></i>
+                            <span>Our Team</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Featured Projects</h2>
+                <p class="section__subtitle">
+                    Showcasing our latest work and successful client collaborations
+                </p>
+            </div>
+            <div class="portfolio__grid">
+                <div class="portfolio__item">
+                    <div class="portfolio__image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <div class="portfolio__overlay">
+                            <a href="#" class="portfolio__link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__content">
+                        <h3 class="portfolio__title">E-commerce Platform</h3>
+                        <p class="portfolio__description">
+                            Modern online store with advanced features and seamless user experience.
+                        </p>
+                        <div class="portfolio__tech">
+                            <span class="tech__tag">React</span>
+                            <span class="tech__tag">Node.js</span>
+                            <span class="tech__tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <div class="portfolio__image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="portfolio__overlay">
+                            <a href="#" class="portfolio__link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__content">
+                        <h3 class="portfolio__title">Analytics Dashboard</h3>
+                        <p class="portfolio__description">
+                            Interactive data visualization platform for business intelligence.
+                        </p>
+                        <div class="portfolio__tech">
+                            <span class="tech__tag">Vue.js</span>
+                            <span class="tech__tag">D3.js</span>
+                            <span class="tech__tag">Express</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <div class="portfolio__image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="portfolio__overlay">
+                            <a href="#" class="portfolio__link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__content">
+                        <h3 class="portfolio__title">Mobile App</h3>
+                        <p class="portfolio__description">
+                            Cross-platform mobile application with native performance.
+                        </p>
+                        <div class="portfolio__tech">
+                            <span class="tech__tag">React Native</span>
+                            <span class="tech__tag">Firebase</span>
+                            <span class="tech__tag">Redux</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <div class="portfolio__image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="portfolio__overlay">
+                            <a href="#" class="portfolio__link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__content">
+                        <h3 class="portfolio__title">Corporate Website</h3>
+                        <p class="portfolio__description">
+                            Professional corporate website with CMS and multilingual support.
+                        </p>
+                        <div class="portfolio__tech">
+                            <span class="tech__tag">WordPress</span>
+                            <span class="tech__tag">PHP</span>
+                            <span class="tech__tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Pricing Plans</h2>
+                <p class="section__subtitle">
+                    Choose the perfect plan for your project needs
+                </p>
+            </div>
+            <div class="pricing__grid">
+                <div class="pricing__card">
+                    <div class="pricing__header">
+                        <h3 class="pricing__title">Basic</h3>
+                        <div class="pricing__price">
+                            <span class="pricing__currency">$</span>
+                            <span class="pricing__amount">999</span>
+                        </div>
+                        <p class="pricing__period">One-time</p>
+                    </div>
+                    <ul class="pricing__features">
+                        <li><i class="fas fa-check"></i> Responsive Design</li>
+                        <li><i class="fas fa-check"></i> Up to 5 Pages</li>
+                        <li><i class="fas fa-check"></i> Basic SEO</li>
+                        <li><i class="fas fa-check"></i> Contact Form</li>
+                        <li><i class="fas fa-check"></i> 30 Days Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--outline">Get Started</a>
+                </div>
+                <div class="pricing__card pricing__card--featured">
+                    <div class="pricing__badge">Most Popular</div>
+                    <div class="pricing__header">
+                        <h3 class="pricing__title">Pro</h3>
+                        <div class="pricing__price">
+                            <span class="pricing__currency">$</span>
+                            <span class="pricing__amount">2,499</span>
+                        </div>
+                        <p class="pricing__period">One-time</p>
+                    </div>
+                    <ul class="pricing__features">
+                        <li><i class="fas fa-check"></i> Everything in Basic</li>
+                        <li><i class="fas fa-check"></i> Up to 15 Pages</li>
+                        <li><i class="fas fa-check"></i> Advanced SEO</li>
+                        <li><i class="fas fa-check"></i> CMS Integration</li>
+                        <li><i class="fas fa-check"></i> E-commerce Features</li>
+                        <li><i class="fas fa-check"></i> 90 Days Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--primary">Get Started</a>
+                </div>
+                <div class="pricing__card">
+                    <div class="pricing__header">
+                        <h3 class="pricing__title">Enterprise</h3>
+                        <div class="pricing__price">
+                            <span class="pricing__currency">$</span>
+                            <span class="pricing__amount">4,999</span>
+                        </div>
+                        <p class="pricing__period">One-time</p>
+                    </div>
+                    <ul class="pricing__features">
+                        <li><i class="fas fa-check"></i> Everything in Pro</li>
+                        <li><i class="fas fa-check"></i> Unlimited Pages</li>
+                        <li><i class="fas fa-check"></i> Custom Development</li>
+                        <li><i class="fas fa-check"></i> API Integration</li>
+                        <li><i class="fas fa-check"></i> Advanced Analytics</li>
+                        <li><i class="fas fa-check"></i> 6 Months Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--outline">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">What Our Clients Say</h2>
+                <p class="section__subtitle">
+                    Trusted by businesses across Iran and beyond
+                </p>
+            </div>
+            <div class="testimonials__grid">
+                <div class="testimonial__card">
+                    <div class="testimonial__content">
+                        <p class="testimonial__quote">
+                            "Ariatek Studio transformed our online presence completely. Their attention to detail 
+                            and technical expertise exceeded our expectations. Highly recommended!"
+                        </p>
+                    </div>
+                    <div class="testimonial__author">
+                        <div class="testimonial__avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="testimonial__info">
+                            <h4 class="testimonial__name">Ahmad Rezaei</h4>
+                            <p class="testimonial__position">CEO, TechStart Iran</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial__card">
+                    <div class="testimonial__content">
+                        <p class="testimonial__quote">
+                            "Working with Ariatek Studio was a game-changer for our business. They delivered 
+                            a stunning website that perfectly represents our brand and drives conversions."
+                        </p>
+                    </div>
+                    <div class="testimonial__author">
+                        <div class="testimonial__avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="testimonial__info">
+                            <h4 class="testimonial__name">Sara Mohammadi</h4>
+                            <p class="testimonial__position">Marketing Director, Retail Plus</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial__card">
+                    <div class="testimonial__content">
+                        <p class="testimonial__quote">
+                            "Professional, reliable, and incredibly talented. Ariatek Studio helped us launch 
+                            our e-commerce platform successfully. The results speak for themselves."
+                        </p>
+                    </div>
+                    <div class="testimonial__author">
+                        <div class="testimonial__avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="testimonial__info">
+                            <h4 class="testimonial__name">Hassan Karimi</h4>
+                            <p class="testimonial__position">Founder, Digital Commerce Co.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Get In Touch</h2>
+                <p class="section__subtitle">
+                    Ready to start your next project? Let's discuss how we can help.
+                </p>
+            </div>
+            <div class="contact__content">
+                <div class="contact__info">
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact__details">
+                            <h4>Email</h4>
+                            <p>hello@ariatekstudio.com</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact__details">
+                            <h4>Phone</h4>
+                            <p>+98 21 1234 5678</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact__details">
+                            <h4>Address</h4>
+                            <p>Tehran, Iran</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__form">
+                    <form class="form">
+                        <div class="form__group">
+                            <input type="text" class="form__input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="email" class="form__input" placeholder="Your Email" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="text" class="form__input" placeholder="Subject" required>
+                        </div>
+                        <div class="form__group">
+                            <textarea class="form__input form__textarea" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3 class="footer__logo">Ariatek Studio</h3>
+                    <p class="footer__description">
+                        Crafting digital excellence for modern businesses. 
+                        Your success is our mission.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="social__link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social__link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social__link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social__link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h4 class="footer__title">Services</h4>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">Web Design</a></li>
+                            <li><a href="#" class="footer__link">Front-End Development</a></li>
+                            <li><a href="#" class="footer__link">SEO Optimization</a></li>
+                            <li><a href="#" class="footer__link">E-commerce</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h4 class="footer__title">Company</h4>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">About Us</a></li>
+                            <li><a href="#" class="footer__link">Portfolio</a></li>
+                            <li><a href="#" class="footer__link">Blog</a></li>
+                            <li><a href="#" class="footer__link">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h4 class="footer__title">Support</h4>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">Contact</a></li>
+                            <li><a href="#" class="footer__link">Help Center</a></li>
+                            <li><a href="#" class="footer__link">Privacy Policy</a></li>
+                            <li><a href="#" class="footer__link">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2025 Ariatek Studio. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
